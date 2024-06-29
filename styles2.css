@@ -1,0 +1,87 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+  background-image: url("image.jpg");
+  background-size: 100%;
+  
+}
+
+   #ct{
+
+        position: absolute;
+        text-align: center;
+        bottom:20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        font-size: 250%;
+        font-weight: 600;
+        letter-spacing: 3px;
+
+   }
+    
+    .form-select{
+        margin-top: -4rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        color: #fff;
+        background: transparent;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+      }
+
+      
+
+    .dreams{
+      position: absolute;
+      color: #ffffff;
+      top: 78%;
+      left: 15%;
+      transform: translateY(-50%,-70%);
+      background-color: transparent; /* This will give the div a transparent background */
+      backdrop-filter: blur(6px); /* This will blur the background slightly */
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      width: 30%;
+      max-width: 300px;
+    }
+
+    .dreams1{
+      position: absolute;
+      color: #7abcfd;
+      top: 99%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-color: transparent; /* This will give the div a transparent background */
+      backdrop-filter: blur(6px); /* This will blur the background slightly */
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      width: 30%;
+      max-width: 300px;
+    }
+
+    .dreams2{
+      position: absolute;
+      color: #ffffff;
+      top: 78%;
+      right: 15%;
+      transform: translateY(-50%,-70%);
+      background-color: transparent; /* This will give the div a transparent background */
+      backdrop-filter: blur(6px); /* This will blur the background slightly */
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      width: 30%;
+      max-width: 300px;
+    }
+    
